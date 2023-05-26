@@ -1,5 +1,5 @@
 // $(document).ready(function(){
-//   const API_KEY = "AIzaSyD7tmIrwDj0HAD_bMNDOQ8ImUmax_day1I";
+//   const API_KEY = "Your API Key";
 //   let video = ''
   
 
@@ -25,7 +25,7 @@
 // })
 
 $(document).ready(function(){
-  const API_KEY = "AIzaSyCsVxQ2HZ7Gs13nfcibRghyfwNKeenBfaQ";
+  const API_KEY = "Your API key";
   let video = '';
   let nextPageToken = '';
   let prevPageToken = '';
