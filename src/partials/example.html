@@ -1,37 +1,35 @@
-<article class="example" id="uk">
-  <h1>HTML-partials</h1>
+<div class="container">
+  <div class="title-position">
+    <img class="logo-position" src="/src/images/logoSE.png" alt="logo">
+    <h1 class="title">Simple Video Search Engine</h1>
+  </div>
+ 
+<form>
+<div class="content-position">
+  <span class="icon-position"><img src="/src/images/172546_search_icon.png" width="18" alt="icon"></span>
+  <input type="text" id="search">
+  
+</div>
+<!-- <div>
+  <input type="submit" value="Search">
+</div> -->
+</form>
 
-  <!--
-    ❗️❗️❗️ The path to images from the HTML partial
-    is the same as from the index.html file
-  -->
-  <img src="images/logo.png" alt="" width="320" />
+<div>
+  <div class="video-position">
+    <div id="videos"></div>
+  </div>
+</div>
+<div>
+  <button id="prevBtn" style="display: none;"><- Previous</button>
+  <button id="nextBtn" style="display: none;">Next -></button>
+</div>
 
-  <p>
-    The
-    <a
-      href="https://github.com/posthtml/posthtml-include"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      posthtml-include
-    </a>
-    plugin allows you to add code from other HTML files (fragments) to HTML page
-    files. Fragments are stored in the <code>src/partials</code> folder. The
-    addition occurs when compiling page files, such as <code>index.html</code>.
-  </p>
+<div class="gcse-search"></div>
 
-  <p>
-    This <code>example.html</code> file is an example of such a snippet, with
-    the markup of a certain part of the main page. This is very convenient for
-    team development on student projects, when several people write in one HTML
-    file at once.
-  </p>
+</div>
 
-  <p>
-    The syntax for adding a fragment to the main file is:
-    <code> &lt;include src="./partials/filename.html"&gt;&lt;/include&gt;</code>
-  </p>
 
-  <div class="background"></div>
-</article>
+
+
+  

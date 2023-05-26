@@ -2,27 +2,130 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
-  background-color: #fff;
-  color: #2f2f37;
-  max-width: 960px;
-  padding: 16px;
+  background-color: #FAFAFA;
 }
 
-.example code {
-  font-family: monospace;
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title-position {
+  display: flex;
+  margin: 20px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #2B2F39;
+  margin: auto 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  box-sizing: border-box;
+ outline: none;
+align-items: center;
+padding: 16px 8px;
+gap: 10px;
+width: 100%;
+background: #FFFFFF;
+border: 1px solid #F5F5F5;
+border-radius: 5px;
+}
+
+.content-position{
+  position: relative;
+  
+}
+
+.icon-position{
+position: absolute;
+z-index: 1;
+left: 92%;
+top: 30%;
+}
+
+
+
+
+
+#search {
+  width: 100%;
+  padding: 10px;
   font-size: 16px;
-  font-weight: 700;
-  background-color: #ff6b0a;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
 }
 
-.example .background {
-  height: 240px;
-  // ❗️❗️❗️ The path to images from a SASS file
-  // is always the same as from the css folder.
-  background-image: url('../images/logo.png');
-  background-size: cover;
-  background-position: center;
+#videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-item {
+  font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+
+letter-spacing: 0.0025em;
+
+/* Text - Regular */
+
+color: #2B2F39;
+  width: 100%;
+  max-width: 320px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align:left;
+}
+
+.video-item h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+
+letter-spacing: 0.0025em;
+
+/* Text - Regular */
+
+color: #2B2F39;
+}
+
+.video-item p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 10px;
+/* identical to box height, or 100% */
+
+letter-spacing: 0.0025em;
+
+/* Text - Sub Reg */
+
+color: #5D6067;
+}
+
+#prevBtn,
+#nextBtn {
+  background: #FFFFFF;
+border-radius: 6px solid ;
+width: 100%;
+  padding: 16px;
+  margin-top: 10px;
 }
